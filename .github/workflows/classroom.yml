@@ -39,7 +39,7 @@ jobs:
         setup-command: pip install pytest
         command: pytest test_assignment2.py::test_cumulative_sum
         timeout: 1
-        max-score: 15
+        max-score: 10
     - name: testTransposeMatrix
       id: testtransposematrix
       uses: classroom-resources/autograding-command-grader@v1
